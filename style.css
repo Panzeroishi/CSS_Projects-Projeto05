@@ -74,7 +74,7 @@
     }
     aside{
         grid-area: aside;
-        height: 500px;
+        height: 530px;
         width: 300px;
         background-color: #8a8686;
         display: flex;
@@ -157,7 +157,7 @@
            
         }
         aside{
-            height: 80vh;
+            height: 550px;
             margin: 10px;
         }
     }
@@ -175,7 +175,7 @@
            
         }
         aside{
-            height:80vh;
+            height:550px;
             margin-bottom:10vh;
 
         }
