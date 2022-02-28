@@ -74,7 +74,7 @@
     }
     aside{
         grid-area: aside;
-        height: 700px;
+        height: 500px;
         width: 300px;
         background-color: #8a8686;
         display: flex;
