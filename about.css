@@ -137,6 +137,9 @@ border-radius:10px;
     }
 }
 @media(max-width:375px){
+    div.item{
+        padding:3;
+    }
     .item:nth-child(1){
         height: 130px;
     }
