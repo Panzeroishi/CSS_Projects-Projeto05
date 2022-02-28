@@ -149,6 +149,9 @@ border-radius:10px;
     .tecnologias p:nth-child(3){
         display: none;
     }
+    .item:hover{
+        background-color: white;
+    }
     footer{
         position: fixed;
         bottom: 0;
