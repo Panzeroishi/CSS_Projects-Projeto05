@@ -40,7 +40,7 @@ img{
 div.item{
     max-width: 300px;
     min-width: 200px;
-    background-color:#464343;
+    background-color:#dad1d1;
     flex-wrap: wrap;
     text-align: center;
     font-family: roboto-bold;
@@ -150,7 +150,7 @@ border-radius:10px;
         display: none;
     }
     .item:hover{
-        background-color: white;
+        background-color: black;
     }
     footer{
         position: fixed;
