@@ -50,7 +50,7 @@ div.item{
     margin: auto;
     list-style: none;
     animation-name: animation-item;
-    animation-duration: 4s;
+    animation-duration: 7s;
     animation-iteration-count: infinite;
 }
 section.item:nth-child(3){
@@ -167,4 +167,3 @@ border-radius:10px;
     100%{background-color:#0f0e0e; color: white;}
 
     }
-}
