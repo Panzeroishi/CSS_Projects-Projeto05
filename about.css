@@ -49,9 +49,6 @@ div.item{
     grid-area:"item";
     margin: auto;
     list-style: none;
-    animation-name: animation-item;
-    animation-duration: 7s;
-    animation-iteration-count: infinite;
 }
 section.item:nth-child(3){
     text-align:center;
@@ -161,9 +158,3 @@ border-radius:10px;
     }
     
 }
-@keyframes animation-item{
-    0%{background-color: #0f0e0e; color: white;}
-    50%{background-color: white; color: #0f0e0e;}
-    100%{background-color:#0f0e0e; color: white;}
-
-    }
