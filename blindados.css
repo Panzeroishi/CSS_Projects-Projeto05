@@ -1,0 +1,152 @@
+*{
+    margin:0;
+}
+body{
+    background-color: #2b2929;
+}
+nav{
+    background-color:#0f0e0e;
+    display:flex;
+    height:70px;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+div.logo{
+    height:40px;
+    width: 40px;
+    margin:10px;
+}
+img{
+    width: 100%;
+}
+li{
+    list-style:none
+
+}
+.menu li a{
+    color: white;
+    text-decoration:none;
+    padding:10px;
+    border-radius:10px;
+    margin-right:20px;
+    font-family:roboto-bold;
+}
+.menu li a:hover{
+    background-color:#464343;
+}
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container-grid{
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-areas: 
+    "item item"
+    "item item"
+    "item item";
+    grid-gap:10px;
+    padding:10px;
+
+
+}
+div.item{
+    background-color: #464343;
+    max-width: 300px;
+    min-width: 200px;
+    height: 400px;
+    padding:10px;
+    grid-area:"item";
+    margin: auto;
+    font-family:roboto-bold;
+    border-radius:10px;
+}
+div.item h3{
+    text-align: center;
+    margin-bottom:5px;
+    background-color: white;
+    border-radius:10px;
+    max-width: 50vw;
+    margin: auto;
+    margin-bottom: 10px;
+}
+div.item p{
+    letter-spacing: 0;
+    background-color: rgb(100, 98, 98);
+    padding: 5px;
+    margin-top: 10px;
+    border-radius:10px;
+    
+}
+div.item img{
+    border-radius:10px;
+}
+footer{
+    background-color:#0f0e0e;
+    height: 70px;
+    width: auto;
+    padding:10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+}
+.redes{
+    padding: 10px;
+    margin-left: 5px;
+    border-radius:10px;
+}
+.redes a{
+    color: white;
+    font-family: roboto-bold;
+}
+.redes:nth-child(1){
+    background-color: red;
+}
+.redes:nth-child(2){
+    background-color:#0e76a8;
+}
+.redes:nth-child(3){
+    background-image: linear-gradient(to right,#feda75,#fa7e1e,#d62976,
+#962fbf,#4f5bd5);
+border-radius:10px;
+}
+.redes a{
+    text-decoration:none;
+}
+
+@font-face {
+    font-family:'roboto-bold';
+    src: url(Fonts/Roboto/Roboto-Bold.ttf);
+}
+@media(max-width:480px){
+    .container-grid{
+      grid-template-areas: 
+      "item"
+      "item"
+      "item"
+      "item"
+      "item";
+      padding:5px;
+    
+    }   
+}
+@Media(max-width:320px){
+    div.logo{
+        margin:5px
+    }
+    .menu li a{
+        margin-right: 10px;
+    }
+}
+@media(min-height:1366px){
+    footer{
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        margin: 0;
+    }
+}
